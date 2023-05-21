@@ -24,7 +24,7 @@
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
-  --bs-cyan: #0df06f;
+  --bs-cyan: #0dcaf0;
   --bs-black: #000;
   --bs-white: #fff;
   --bs-gray: #6c757d;
@@ -41,12 +41,12 @@
   --bs-primary: #198754;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
-  --bs-info: #fff;
+  --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 163, 177, 138;
+  --bs-primary-rgb: 163, 177,  138;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -457,7 +457,6 @@ legend + * {
   direction: ltr;
 }
 */
-
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -677,10 +676,6 @@ progress {
     max-width: 1320px;
   }
 }
-#photo{
-  margin-top: -255px;
-}
-
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -2911,19 +2906,19 @@ textarea.form-control-lg {
 
 .btn-info {
   --bs-btn-color: #000;
-  --bs-btn-bg: #A3B18A;
-  --bs-btn-border-color: #A3B18A;
+  --bs-btn-bg: #0dcaf0;
+  --bs-btn-border-color: #0dcaf0;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #A3B18A;
-  --bs-btn-hover-border-color: #A3B18A;
+  --bs-btn-hover-bg: #31d2f2;
+  --bs-btn-hover-border-color: #25cff2;
   --bs-btn-focus-shadow-rgb: 11, 172, 204;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #A3B18A;
-  --bs-btn-active-border-color: #A3B18A;
+  --bs-btn-active-bg: #3dd5f3;
+  --bs-btn-active-border-color: #25cff2;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #A3B18A;
-  --bs-btn-disabled-border-color: #A3B18A;
+  --bs-btn-disabled-bg: #0dcaf0;
+  --bs-btn-disabled-border-color: #0dcaf0;
 }
 
 .btn-warning {
@@ -10869,10 +10864,9 @@ body {
 hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
-  margin: 1.5rem auto;
+/*  margin: 1.5rem auto;*/
   background-color: #DAD7CD;
   opacity: 1;
-  align-items: left;
 }
 
 hr.divider-light {
@@ -10950,17 +10944,6 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
-
- header.closepage{
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(13, 21, 10, 0.51) 0%, rgba(13, 21, 10, 0.51) 100%), url("../assets/img/treesun.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
