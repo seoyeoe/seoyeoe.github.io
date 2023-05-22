@@ -9,7 +9,22 @@
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+ */ 
+ @font-face {
+  font-family: 'TheJamsil5Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+ 
+  unicode-range: U+AC00-D7A3;
+}
+
+ * {
+  font-family: 'TheJamsil5Bold' 
+   , 'Righteous', cursive  !important; 
+}
+ 
+
 #butimg{
   background: url("assets/pngegg.png");
 }
@@ -1304,9 +1319,10 @@ progress {
     flex: 0 0 auto;
     width: 58.33333333%;
   }
+  /******글씨 넓이*/
   .col-lg-8 {
     flex: 0 0 auto;
-    width: 66.66666667%;
+    width: 90%;
   }
   .col-lg-9 {
     flex: 0 0 auto;
